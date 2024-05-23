@@ -111,12 +111,12 @@
 			children = (
 				9D1CE31E2BFE1F6100EDBD0B /* AppDelegate.swift */,
 				9D1CE3202BFE1F6100EDBD0B /* SceneDelegate.swift */,
-				9D1CE3222BFE1F6100EDBD0B /* StartingViewController.swift */,
 				9DC404E02BFF038B0062F869 /* Font */,
 				9D1CE3242BFE1F6100EDBD0B /* Main.storyboard */,
 				9D1CE3272BFE1F6300EDBD0B /* Assets.xcassets */,
 				9D1CE3292BFE1F6300EDBD0B /* LaunchScreen.storyboard */,
 				9D1CE32C2BFE1F6300EDBD0B /* Info.plist */,
+				9D1CE3222BFE1F6100EDBD0B /* StartingViewController.swift */,
 				9D5F79692BFE36A8000A0920 /* LoginViewController.swift */,
 				9D5F796D2BFE562F000A0920 /* OTPViewController.swift */,
 				9DC404C92BFEF8380062F869 /* CreateProfileViewController.swift */,
