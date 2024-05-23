@@ -264,7 +264,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="900"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Your" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BDO-7q-D5A">
-                                                <rect key="frame" x="33.666666666666657" y="133" width="326" height="45"/>
+                                                <rect key="frame" x="33.666666666666657" y="110" width="326" height="45"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="45" id="A1A-Sj-TeA"/>
                                                     <constraint firstAttribute="width" constant="326" id="GIa-1w-NDu"/>
@@ -274,7 +274,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Verification Code" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bep-yv-7dr">
-                                                <rect key="frame" x="33.666666666666657" y="178" width="326" height="45"/>
+                                                <rect key="frame" x="33.666666666666657" y="155" width="326" height="45"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="326" id="jpy-Jn-zfG"/>
                                                     <constraint firstAttribute="height" constant="45" id="pSP-jf-c1l"/>
@@ -284,7 +284,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We Have sent the code verification to your mobile number" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b2w-wT-5ME">
-                                                <rect key="frame" x="33.666666666666657" y="243" width="326" height="48"/>
+                                                <rect key="frame" x="33.666666666666657" y="220" width="326" height="48"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="326" id="g6a-GS-y8I"/>
                                                     <constraint firstAttribute="height" constant="48" id="vxi-8H-Jae"/>
@@ -294,7 +294,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tru-s7-Atu">
-                                                <rect key="frame" x="35" y="381" width="150" height="24"/>
+                                                <rect key="frame" x="35" y="358" width="150" height="24"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="24" id="4Au-pu-JqS"/>
                                                     <constraint firstAttribute="width" constant="150" id="HTl-Hp-m6q"/>
@@ -303,7 +303,7 @@
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="waG-yP-iNM">
-                                                <rect key="frame" x="35" y="435" width="74" height="60"/>
+                                                <rect key="frame" x="35" y="412" width="74" height="60"/>
                                                 <color key="backgroundColor" red="1" green="0.49803921568627452" blue="0.36470588235294116" alpha="0.050000000000000003" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                 <color key="tintColor" systemColor="labelColor"/>
                                                 <constraints>
@@ -314,7 +314,7 @@
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="72a-z2-KGl">
-                                                <rect key="frame" x="119" y="435" width="74" height="60"/>
+                                                <rect key="frame" x="119" y="412" width="74" height="60"/>
                                                 <color key="backgroundColor" red="1" green="0.49803921569999998" blue="0.36470588240000001" alpha="0.050000000000000003" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                 <color key="tintColor" systemColor="labelColor"/>
                                                 <constraints>
@@ -325,7 +325,7 @@
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hkg-dw-86w">
-                                                <rect key="frame" x="287" y="435" width="74" height="60"/>
+                                                <rect key="frame" x="287" y="412" width="74" height="60"/>
                                                 <color key="backgroundColor" red="1" green="0.49803921569999998" blue="0.36470588240000001" alpha="0.050000000000000003" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                 <color key="tintColor" systemColor="labelColor"/>
                                                 <constraints>
@@ -336,7 +336,7 @@
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6mR-Qu-8az">
-                                                <rect key="frame" x="33" y="545" width="327" height="60"/>
+                                                <rect key="frame" x="33" y="522" width="327" height="60"/>
                                                 <color key="backgroundColor" red="0.38431376220000002" green="0.37254902719999999" blue="0.75294119120000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="327" id="31F-fa-JUY"/>
@@ -350,19 +350,19 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Didn't receive OTP?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EKT-fM-tGt">
-                                                <rect key="frame" x="79.999999999999986" y="705" width="150.66666666666663" height="21"/>
+                                                <rect key="frame" x="79.999999999999986" y="682" width="150.66666666666663" height="21"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="72x-pY-w1N">
-                                                <rect key="frame" x="230.66666666666663" y="695" width="81" height="35"/>
+                                                <rect key="frame" x="230.66666666666663" y="672" width="81" height="35"/>
                                                 <color key="tintColor" red="1" green="0.49803921568627452" blue="0.36470588235294116" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Resend"/>
                                             </button>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lQ9-7m-qYD">
-                                                <rect key="frame" x="203" y="435" width="74" height="60"/>
+                                                <rect key="frame" x="203" y="412" width="74" height="60"/>
                                                 <color key="backgroundColor" red="1" green="0.49803921569999998" blue="0.36470588240000001" alpha="0.050000000000000003" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                 <color key="tintColor" systemColor="labelColor"/>
                                                 <constraints>
@@ -373,7 +373,7 @@
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uei-by-m9e">
-                                                <rect key="frame" x="205" y="381" width="24" height="24"/>
+                                                <rect key="frame" x="205" y="358" width="24" height="24"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="24" id="W9t-KX-mEM"/>
                                                     <constraint firstAttribute="height" constant="24" id="qr1-qD-EaL"/>
@@ -409,7 +409,7 @@
                                             <constraint firstItem="uei-by-m9e" firstAttribute="leading" secondItem="tru-s7-Atu" secondAttribute="trailing" constant="20" id="rVz-59-dxw"/>
                                             <constraint firstItem="b2w-wT-5ME" firstAttribute="centerX" secondItem="fkH-gx-XE7" secondAttribute="centerX" id="sfQ-Mr-Q63"/>
                                             <constraint firstItem="hkg-dw-86w" firstAttribute="top" secondItem="lQ9-7m-qYD" secondAttribute="top" id="soh-T9-Mey"/>
-                                            <constraint firstItem="BDO-7q-D5A" firstAttribute="top" secondItem="fkH-gx-XE7" secondAttribute="top" constant="133" id="uVb-A5-osJ"/>
+                                            <constraint firstItem="BDO-7q-D5A" firstAttribute="top" secondItem="fkH-gx-XE7" secondAttribute="top" constant="110" id="uVb-A5-osJ"/>
                                             <constraint firstItem="uei-by-m9e" firstAttribute="top" secondItem="b2w-wT-5ME" secondAttribute="bottom" constant="90" id="veo-3k-qP2"/>
                                             <constraint firstItem="72a-z2-KGl" firstAttribute="leading" secondItem="waG-yP-iNM" secondAttribute="trailing" constant="10" id="zAE-Ek-anW"/>
                                         </constraints>
