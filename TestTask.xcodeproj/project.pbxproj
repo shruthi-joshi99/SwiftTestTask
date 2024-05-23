@@ -16,11 +16,13 @@
 		9D1CE3362BFE1F6300EDBD0B /* TestTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1CE3352BFE1F6300EDBD0B /* TestTaskTests.swift */; };
 		9D1CE3402BFE1F6300EDBD0B /* TestTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1CE33F2BFE1F6300EDBD0B /* TestTaskUITests.swift */; };
 		9D1CE3422BFE1F6300EDBD0B /* TestTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1CE3412BFE1F6300EDBD0B /* TestTaskUITestsLaunchTests.swift */; };
-		9D1CE34F2BFE249F00EDBD0B /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D1CE34E2BFE249F00EDBD0B /* Montserrat-Bold.ttf */; };
 		9D5F796A2BFE36A8000A0920 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5F79692BFE36A8000A0920 /* LoginViewController.swift */; };
 		9D5F796E2BFE562F000A0920 /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5F796D2BFE562F000A0920 /* OTPViewController.swift */; };
+		9D8785032BFF19ED00B5C007 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D8785022BFF19ED00B5C007 /* Montserrat-ExtraLight.ttf */; };
+		9D8785052BFF1A2E00B5C007 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D8785042BFF1A2E00B5C007 /* Inter-Thin.ttf */; };
+		9D8785072BFF1A3E00B5C007 /* Montserrat-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D8785062BFF1A3E00B5C007 /* Montserrat-VariableFont_wght.ttf */; };
+		9D8785092BFF290E00B5C007 /* UIImage+scaledToFit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8785082BFF290E00B5C007 /* UIImage+scaledToFit.swift */; };
 		9DC404CA2BFEF8380062F869 /* CreateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC404C92BFEF8380062F869 /* CreateProfileViewController.swift */; };
-		9DC404CC2BFF021B0062F869 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DC404CB2BFF021B0062F869 /* Inter-Thin.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,11 +56,13 @@
 		9D1CE33B2BFE1F6300EDBD0B /* TestTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D1CE33F2BFE1F6300EDBD0B /* TestTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTaskUITests.swift; sourceTree = "<group>"; };
 		9D1CE3412BFE1F6300EDBD0B /* TestTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		9D1CE34E2BFE249F00EDBD0B /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		9D5F79692BFE36A8000A0920 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9D5F796D2BFE562F000A0920 /* OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
+		9D8785022BFF19ED00B5C007 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		9D8785042BFF1A2E00B5C007 /* Inter-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Thin.ttf"; sourceTree = "<group>"; };
+		9D8785062BFF1A3E00B5C007 /* Montserrat-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		9D8785082BFF290E00B5C007 /* UIImage+scaledToFit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+scaledToFit.swift"; sourceTree = "<group>"; };
 		9DC404C92BFEF8380062F869 /* CreateProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileViewController.swift; sourceTree = "<group>"; };
-		9DC404CB2BFF021B0062F869 /* Inter-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Thin.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +124,7 @@
 				9D5F79692BFE36A8000A0920 /* LoginViewController.swift */,
 				9D5F796D2BFE562F000A0920 /* OTPViewController.swift */,
 				9DC404C92BFEF8380062F869 /* CreateProfileViewController.swift */,
+				9D8785082BFF290E00B5C007 /* UIImage+scaledToFit.swift */,
 			);
 			path = TestTask;
 			sourceTree = "<group>";
@@ -144,8 +149,9 @@
 		9DC404E02BFF038B0062F869 /* Font */ = {
 			isa = PBXGroup;
 			children = (
-				9DC404CB2BFF021B0062F869 /* Inter-Thin.ttf */,
-				9D1CE34E2BFE249F00EDBD0B /* Montserrat-Bold.ttf */,
+				9D8785062BFF1A3E00B5C007 /* Montserrat-VariableFont_wght.ttf */,
+				9D8785022BFF19ED00B5C007 /* Montserrat-ExtraLight.ttf */,
+				9D8785042BFF1A2E00B5C007 /* Inter-Thin.ttf */,
 			);
 			path = Font;
 			sourceTree = "<group>";
@@ -254,10 +260,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D1CE34F2BFE249F00EDBD0B /* Montserrat-Bold.ttf in Resources */,
 				9D1CE3282BFE1F6300EDBD0B /* Assets.xcassets in Resources */,
+				9D8785032BFF19ED00B5C007 /* Montserrat-ExtraLight.ttf in Resources */,
 				9D1CE32B2BFE1F6300EDBD0B /* Base in Resources */,
-				9DC404CC2BFF021B0062F869 /* Inter-Thin.ttf in Resources */,
+				9D8785052BFF1A2E00B5C007 /* Inter-Thin.ttf in Resources */,
+				9D8785072BFF1A3E00B5C007 /* Montserrat-VariableFont_wght.ttf in Resources */,
 				9D1CE3262BFE1F6100EDBD0B /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D8785092BFF290E00B5C007 /* UIImage+scaledToFit.swift in Sources */,
 				9D5F796E2BFE562F000A0920 /* OTPViewController.swift in Sources */,
 				9D5F796A2BFE36A8000A0920 /* LoginViewController.swift in Sources */,
 				9D1CE3232BFE1F6100EDBD0B /* StartingViewController.swift in Sources */,

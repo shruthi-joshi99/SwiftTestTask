@@ -4,9 +4,9 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
-		<string>montserrat.ttf</string>
+		<string>Montserrat-ExtraLight.ttf</string>
+		<string>Montserrat-VariableFont_wght.ttf</string>
 		<string>Inter-Thin.ttf</string>
-		<string>Montserrat-Bold.ttf</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>

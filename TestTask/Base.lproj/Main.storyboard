@@ -461,13 +461,6 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pz8-x0-eCx">
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="950"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="camera_image" translatesAutoresizingMaskIntoConstraints="NO" id="YUJ-02-bDs">
-                                                <rect key="frame" x="136.66666666666666" y="50" width="119.99999999999997" height="120"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="120" id="6dO-hs-Lu7"/>
-                                                    <constraint firstAttribute="height" constant="120" id="xmH-xU-DPq"/>
-                                                </constraints>
-                                            </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lfl-sA-px0">
                                                 <rect key="frame" x="35" y="230" width="100" height="17"/>
                                                 <constraints>
@@ -586,10 +579,23 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R72-Nl-LYn">
+                                                <rect key="frame" x="136.66666666666666" y="50" width="119.99999999999997" height="120"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="120" id="6SW-tp-ZGT"/>
+                                                    <constraint firstAttribute="height" constant="120" id="dRo-3p-VJV"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="camera_image"/>
+                                                <connections>
+                                                    <action selector="cameraButtonClicked:" destination="b4n-1y-n8w" eventType="touchUpInside" id="g51-Pm-JL1"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
                                             <constraint firstItem="u7K-yF-0mG" firstAttribute="top" secondItem="XXc-a8-Lrf" secondAttribute="bottom" constant="65" id="1u0-Ff-uqk"/>
+                                            <constraint firstItem="R72-Nl-LYn" firstAttribute="top" secondItem="Pz8-x0-eCx" secondAttribute="top" constant="50" id="4Gs-yP-k1X"/>
                                             <constraint firstItem="Lfl-sA-px0" firstAttribute="leading" secondItem="Pz8-x0-eCx" secondAttribute="leading" constant="35" id="51j-Od-Nuf"/>
                                             <constraint firstItem="Lfl-sA-px0" firstAttribute="top" secondItem="Pz8-x0-eCx" secondAttribute="top" constant="230" id="CcB-pB-ckx"/>
                                             <constraint firstItem="eVO-Vi-iOL" firstAttribute="leading" secondItem="Pz8-x0-eCx" secondAttribute="leading" constant="35" id="Dff-dr-afU"/>
@@ -606,8 +612,7 @@
                                             <constraint firstItem="eVO-Vi-iOL" firstAttribute="top" secondItem="IAY-g6-LSb" secondAttribute="bottom" constant="28" id="d0k-e7-pkW"/>
                                             <constraint firstItem="p8k-2C-GwE" firstAttribute="leading" secondItem="Pz8-x0-eCx" secondAttribute="leading" constant="35" id="fZL-hp-7Ft"/>
                                             <constraint firstItem="bWM-2w-H7c" firstAttribute="top" secondItem="eVO-Vi-iOL" secondAttribute="bottom" constant="28" id="hBL-VQ-o2r"/>
-                                            <constraint firstItem="YUJ-02-bDs" firstAttribute="centerX" secondItem="Pz8-x0-eCx" secondAttribute="centerX" id="nFy-us-kax"/>
-                                            <constraint firstItem="YUJ-02-bDs" firstAttribute="top" secondItem="Pz8-x0-eCx" secondAttribute="top" constant="50" id="nre-MV-kuT"/>
+                                            <constraint firstItem="R72-Nl-LYn" firstAttribute="centerX" secondItem="Pz8-x0-eCx" secondAttribute="centerX" id="kr5-BQ-miA"/>
                                             <constraint firstItem="OpL-Ao-qwn" firstAttribute="leading" secondItem="Pz8-x0-eCx" secondAttribute="leading" constant="35" id="p3T-4U-Rue"/>
                                             <constraint firstItem="u7K-yF-0mG" firstAttribute="leading" secondItem="Pz8-x0-eCx" secondAttribute="leading" constant="35" id="pd6-eB-l6A"/>
                                             <constraint firstAttribute="height" constant="950" id="tCp-OB-v1R"/>
@@ -642,6 +647,7 @@
                         <outlet property="lastNameTextField" destination="bWM-2w-H7c" id="8bD-gG-MvG"/>
                         <outlet property="phoneTextField" destination="OpL-Ao-qwn" id="FpI-sO-Zbb"/>
                         <outlet property="postCodeTextField" destination="nyz-FW-fkK" id="uu5-Qc-Qan"/>
+                        <outlet property="profilePicButton" destination="R72-Nl-LYn" id="Nc6-6D-OZp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wzx-GH-3B6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
